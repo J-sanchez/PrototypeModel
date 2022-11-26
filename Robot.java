@@ -1,7 +1,7 @@
-import java.util.list;
+import java.util.List;
 
 public class Robot implements Cloneable{
-     private int 10;
+     private int ID;
      private List<String> features; 
      private Components components; 
 
@@ -18,7 +18,7 @@ public class Robot implements Cloneable{
         this.ID = ID;
      }
      public List<String> getFeatures(){
-        return Features; 
+        return features; 
      }
      public void setFeatures(List<String> features){
         this.features = features;
